@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+sentence-transformers
+optimum[onnxruntime]
+onnx
+aiohttp
+psutil
+matplotlib

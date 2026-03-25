@@ -1,0 +1,176 @@
+{
+    "Part 1: Baseline": {
+        "1": {
+            "throughput": 91.15382357684672,
+            "avg_latency": 10.936556816101074,
+            "p95_latency": 13.997554779052734,
+            "p99_latency": 16.00050926208496,
+            "cpu_usage": 54.6,
+            "error_rate": 0.0
+        },
+        "5": {
+            "throughput": 88.89784538177797,
+            "avg_latency": 56.07191300392151,
+            "p95_latency": 61.998605728149414,
+            "p99_latency": 102.97560691833496,
+            "cpu_usage": 54.5,
+            "error_rate": 0.0
+        },
+        "10": {
+            "throughput": 89.3096153783503,
+            "avg_latency": 111.34907484054565,
+            "p95_latency": 123.0020523071289,
+            "p99_latency": 158.0512523651123,
+            "cpu_usage": 54.6,
+            "error_rate": 0.0
+        },
+        "25": {
+            "throughput": 89.8535142538605,
+            "avg_latency": 276.0943794250488,
+            "p95_latency": 312.0007514953613,
+            "p99_latency": 333.9989185333252,
+            "cpu_usage": 54.5,
+            "error_rate": 0.0
+        },
+        "50": {
+            "throughput": 88.33978875430907,
+            "avg_latency": 556.3056204319,
+            "p95_latency": 633.1157684326172,
+            "p99_latency": 644.0000534057617,
+            "cpu_usage": 54.9,
+            "error_rate": 0.0
+        },
+        "100": {
+            "throughput": 86.94508636250944,
+            "avg_latency": 1118.6368441581726,
+            "p95_latency": 1286.0145568847656,
+            "p99_latency": 1303.0166625976562,
+            "cpu_usage": 54.4,
+            "error_rate": 0.0
+        },
+        "200": {
+            "throughput": 87.37692443935433,
+            "avg_latency": 2117.2597637176514,
+            "p95_latency": 3446.0792541503906,
+            "p99_latency": 3483.503580093384,
+            "cpu_usage": 55.3,
+            "error_rate": 0.0
+        }
+    },
+    "Part 2: ONNX": {
+        "1": {
+            "throughput": 172.8197763353367,
+            "avg_latency": 5.751028776168823,
+            "p95_latency": 8.000612258911133,
+            "p99_latency": 9.001970291137695,
+            "cpu_usage": 59.7,
+            "error_rate": 0.0
+        },
+        "5": {
+            "throughput": 184.15208261392706,
+            "avg_latency": 27.023415327072144,
+            "p95_latency": 30.997276306152344,
+            "p99_latency": 60.00089645385742,
+            "cpu_usage": 57.6,
+            "error_rate": 0.0
+        },
+        "10": {
+            "throughput": 186.4165849134668,
+            "avg_latency": 53.151376485824585,
+            "p95_latency": 60.5168342590332,
+            "p99_latency": 91.99714660644531,
+            "cpu_usage": 56.8,
+            "error_rate": 0.0
+        },
+        "25": {
+            "throughput": 185.40637543944072,
+            "avg_latency": 132.92612171173096,
+            "p95_latency": 163.99598121643066,
+            "p99_latency": 178.35521697998047,
+            "cpu_usage": 57.0,
+            "error_rate": 0.0
+        },
+        "50": {
+            "throughput": 177.53162746016284,
+            "avg_latency": 276.2341618537903,
+            "p95_latency": 447.9939937591553,
+            "p99_latency": 476.99999809265137,
+            "cpu_usage": 62.5,
+            "error_rate": 0.0
+        },
+        "100": {
+            "throughput": 167.198348643324,
+            "avg_latency": 575.2538919448853,
+            "p95_latency": 630.0003528594971,
+            "p99_latency": 639.9967670440674,
+            "cpu_usage": 62.8,
+            "error_rate": 0.0
+        },
+        "200": {
+            "throughput": 154.5227035018555,
+            "avg_latency": 1137.4240322113037,
+            "p95_latency": 2205.341577529907,
+            "p99_latency": 2414.9768352508545,
+            "cpu_usage": 67.1,
+            "error_rate": 0.0
+        }
+    },
+    "Part 3: Batching": {
+        "1": {
+            "throughput": 177.0131977112679,
+            "avg_latency": 5.614782333374023,
+            "p95_latency": 8.00013542175293,
+            "p99_latency": 9.000778198242188,
+            "cpu_usage": 58.4,
+            "error_rate": 0.0
+        },
+        "5": {
+            "throughput": 198.9316333768858,
+            "avg_latency": 24.855395793914795,
+            "p95_latency": 32.999515533447266,
+            "p99_latency": 43.99824142456055,
+            "cpu_usage": 56.3,
+            "error_rate": 0.0
+        },
+        "10": {
+            "throughput": 219.818843409031,
+            "avg_latency": 44.58948063850403,
+            "p95_latency": 58.00056457519531,
+            "p99_latency": 93.99843215942383,
+            "cpu_usage": 57.2,
+            "error_rate": 0.0
+        },
+        "25": {
+            "throughput": 216.49448670730385,
+            "avg_latency": 113.15423130989075,
+            "p95_latency": 144.00148391723633,
+            "p99_latency": 151.0012149810791,
+            "cpu_usage": 55.5,
+            "error_rate": 0.0
+        },
+        "50": {
+            "throughput": 201.00358406449436,
+            "avg_latency": 242.47718811035156,
+            "p95_latency": 367.9993152618408,
+            "p99_latency": 498.99959564208984,
+            "cpu_usage": 57.5,
+            "error_rate": 0.0
+        },
+        "100": {
+            "throughput": 203.17210336283102,
+            "avg_latency": 471.83174204826355,
+            "p95_latency": 580.9981822967529,
+            "p99_latency": 587.9993438720703,
+            "cpu_usage": 54.9,
+            "error_rate": 0.0
+        },
+        "200": {
+            "throughput": 202.71214410019923,
+            "avg_latency": 891.665096282959,
+            "p95_latency": 1526.0004997253418,
+            "p99_latency": 1643.8920497894287,
+            "cpu_usage": 57.7,
+            "error_rate": 0.0
+        }
+    }
+}
